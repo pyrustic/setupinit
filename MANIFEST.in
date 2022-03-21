@@ -1,0 +1,3 @@
+recursive-include setupinit *
+global-exclude *.py[cod]
+include VERSION
