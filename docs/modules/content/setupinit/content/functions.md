@@ -16,7 +16,7 @@ No description
 [\_update\_manifest](#_update_manifest) &nbsp;&nbsp; [\_update\_setup\_cfg](#_update_setup_cfg) &nbsp;&nbsp; [get\_app\_pkg](#get_app_pkg) &nbsp;&nbsp; [get\_missing\_files](#get_missing_files) &nbsp;&nbsp; [get\_project\_name](#get_project_name) &nbsp;&nbsp; [get\_required\_filenames](#get_required_filenames) &nbsp;&nbsp; [initialize](#initialize) &nbsp;&nbsp; [initialized](#initialized)
 
 ## \_update\_manifest
-None
+No description
 
 
 
@@ -26,13 +26,13 @@ None
 
 
 
-**Return Value:** None.
+**Return Value:** None
 
 [Back to Top](#module-overview)
 
 
 ## \_update\_setup\_cfg
-None
+No description
 
 
 
@@ -42,7 +42,7 @@ None
 
 
 
-**Return Value:** None.
+**Return Value:** None
 
 [Back to Top](#module-overview)
 
@@ -65,7 +65,7 @@ Basically it extracts the basename from the path then turns dashes "-" into
 
 
 
-**Return Value:** ['str, the application package name.']
+**Return Value:** str, the application package name.
 
 [Back to Top](#module-overview)
 
@@ -86,7 +86,10 @@ Returns a dict of missing required files in a project
 
 
 
-**Return Value:** ['Returns a dict of missing filenames.', 'The keys of the dict are the canonical names of the missing files.', "The values are missing filenames (obviously these filenames doesn't exist).", 'Example: {"setup_cfg": "/path/to/filename/that/should/exist", ...}']
+**Return Value:** Returns a dict of missing filenames.
+The keys of the dict are the canonical names of the missing files.
+The values are missing filenames (obviously these filenames doesn't exist).
+Example: {"setup_cfg": "/path/to/filename/that/should/exist", ...}
 
 [Back to Top](#module-overview)
 
@@ -108,7 +111,7 @@ Basically it extracts the basename from the path
 
 
 
-**Return Value:** ['str, the project name.']
+**Return Value:** str, the project name.
 
 [Back to Top](#module-overview)
 
@@ -129,7 +132,10 @@ Returns a dict of required filenames.
 
 
 
-**Return Value:** ['Returns a dict.', 'The keys of the dict are the canonical names of the required files.', 'The values are filenames as they should be if these files exist.', 'Example: {"setup_cfg": "/path/to/filename/that/should/exist", ...}']
+**Return Value:** Returns a dict.
+The keys of the dict are the canonical names of the required files.
+The values are filenames as they should be if these files exist.
+Example: {"setup_cfg": "/path/to/filename/that/should/exist", ...}
 
 [Back to Top](#module-overview)
 
@@ -151,7 +157,7 @@ These files are pre-filled with useful data.
 
 
 
-**Return Value:** None.
+**Return Value:** None
 
 [Back to Top](#module-overview)
 
@@ -174,7 +180,7 @@ required filenames (see the function: get_required_filenames())
 
 
 
-**Return Value:** ['Returns True if the project is initialized, else returns False']
+**Return Value:** Returns True if the project is initialized, else returns False
 
 [Back to Top](#module-overview)
 

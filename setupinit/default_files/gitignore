@@ -19,3 +19,6 @@ env/
 
 # Pyrustic local data
 .pyrustic/
+
+# Backstage local data
+.backstage/
