@@ -15,7 +15,9 @@ This project is part of the [Pyrustic Open Ecosystem](https://pyrustic.github.io
 
 
 # Overview
-**Setupinit** is a command line tool that turns an **empty** directory into a Python project. This tool also ensures that an **existing** Python project is properly initialized. When you run `setupinit init` from the command line, the current working directory is populated with files and folders following the conventional Python project structure as described in the [Python Packaging User Guide](https://packaging.python.org/tutorials/packaging-projects/). 
+**Setupinit** is a command line tool that turns an **empty** directory into a Python project. This tool also ensures that an **existing** Python project is properly initialized. When you run `setupinit init` from the command line, the current working directory is populated with files and folders following the conventional Python project structure as described in the [Python Packaging User Guide](https://packaging.python.org/tutorials/packaging-projects/).
+
+> Note that **setupinit** uses the [flat-layout](https://setuptools.pypa.io/en/latest/userguide/package_discovery.html#flat-layout) as project structure.
 
 **Setupinit** derives the **project name** from the current working directory, then computes the **package name** from it. The package name is different from the project name. For example, the package name of the `cyberpunk-theme` project is `cyberpunk_theme`. The package name is then used to initialize the contents of certain files like `setup.cfg`.
 
